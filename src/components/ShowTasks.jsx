@@ -11,7 +11,7 @@ const ShowTasks = ({tasks, setTasks}) => {
     }
 
     const deleteTask =(id)=>{
-        setTasks(tasks.filter((task)=> task.id !== id)) //!anlamadım
+        setTasks(tasks.filter((task)=> task.id !== id)) 
     }
   return (
     <div>
